@@ -4,5 +4,8 @@ python:
 branches:
   only:
   - master
-install: "pip install -r requirements.txt"
+install: pip install -r requirements.txt
 script: pelican
+notifications:
+  slack:
+    secure: BHMqYQAyGTzp6eNRRY6Sw97jfXIFDD0DW4DXwLk54b4sduP+W7lcENfhLzOxMdajbbfCa12UfTeA27Qd1RX/P3ZuGAZxCuR/DftP9WEXTJ1I1Usiw/E51qXEsn+A9CIVeMRmaVoyOJU8yLegmV/LvMnEa9wW0XHstf7nYo313YZIH7+3idokHX+2270lLVZWI+YaW5yaT/T/rXGJfdVpn3RDpXddDgwPVYLSDjUp7R5q01m1e3WaxPlmSKmXTbSpddQgbnZcnpCIoSgKHb9eD7psAF5CUbcWfZeyuhxzbotYA9CFIHjZkv2hBmlbxsfKuMeJqQ/g6gRjgO6KTd4w83QoLan5/8AmxEVB2EaFPddg4MCSKz0iZyw1vI9VjR2xw8FPlY3bNaFl67hJKRdh2awtMXXfWWe/B5OPKMvudBo1TJb8xS8nA9Ll9DELtTjLBCthgh2Ng5XZFqbuRnCzD3VeisRZHdsCKxrW/CBdtNUIXmc7G9oLvFfn1+XdCZEpv26uFPJAyEaOmyyzr+CaHgUi/aY/HU4YZ2oZ2GhzkTjwCuJ6KiVFbpECRqyHXrAp8Ig5roqpJyIGaUtLf/AgV444LdDeUBTVvEscwAmBLjDAD4/443kWxjEAs7MLNXabeGWmgUcC+3tBLnYaT7V2e0ekDbRgdn45TBXyxY0INSE=
